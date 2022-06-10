@@ -1,0 +1,67 @@
+{% load static %}
+<!DOCTYPE html>
+<!--Code by Divinector (www.divinectorweb.com)-->
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CARS</title>
+	<link href="{{'https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'}}" rel="stylesheet">
+	<link href="{% static 'css/cars.css'%}" rel="stylesheet">
+</head>
+<body>
+	<div class="pricing-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-sm-6">
+					<div class="single-price">
+						<div class="price-header">
+							<h3 class="title">LAND ROVER</h3>
+						</div>
+						<div class="price-value">
+							<div class="value">
+                                
+								<span class="currency">₹</span> <span class="amount">5200000</span> 
+							</div>
+						</div>
+						<ul class="deals">
+							<img src="{% static 'images/hai.png'%}" alt="land rover" width="350" height="300">
+						</ul><a href="#">VIEW CARS</a>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="single-price">
+						<div class="price-header">
+							<h3 class="title">JAGUAR</h3>
+						</div>
+						<div class="price-value">
+							<div class="value">
+								<span class="currency">₹</span> <span class="amount">5200000</span>
+							</div>
+						</div>
+						<ul class="deals">
+							<img src="{% static 'images/j.png'%}" alt="land rover" width="350" height="300">
+						</ul><a href="#">VIEW CARS</a>
+                    </div>
+                    
+
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="single-price">
+						<div class="price-header">
+							<h3 class="title">BENZ</h3>
+						</div>
+						<div class="price-value">
+							<div class="value">
+								<span class="currency">₹</span> <span class="amount">3000000</span>
+							</div>
+						</div>
+						<ul class="deals">
+							<img src="{% static 'images/car.jpg'%}" alt="land rover" width="350" height="300">
+						</ul><a href="#">VIEW CARS</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
